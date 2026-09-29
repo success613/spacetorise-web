@@ -8,12 +8,32 @@
    "permanent": true
   },
   {
+   "source": "/gift-for-you/",
+   "destination": "/gif-for-you/",
+   "permanent": true
+  },
+  {
    "source": "/home",
    "destination": "/",
    "permanent": true
   },
   {
+   "source": "/home/",
+   "destination": "/",
+   "permanent": true
+  },
+  {
    "source": "/tienda",
+   "destination": "/shop/",
+   "permanent": true
+  },
+  {
+   "source": "/tienda/",
+   "destination": "/shop/",
+   "permanent": true
+  },
+  {
+   "source": "/SHOP/:path*",
    "destination": "/shop/",
    "permanent": true
   }
